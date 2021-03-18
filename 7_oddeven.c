@@ -1,8 +1,11 @@
+// CREATION: 18-03-21
+//Tanisha Gandhi
+// A C Program to check whether the entered number is Odd or Even.
 #include <stdio.h>
 int main() {
     int num;
     printf("Enter an integer: ");
-    scanf("%d", &num);
+    scanf("%d", &num);//It will scan the numbers entered by user.
     if(num % 2 == 0)
         printf("%d is even.", num);
     else

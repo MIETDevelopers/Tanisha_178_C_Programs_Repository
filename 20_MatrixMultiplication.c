@@ -4,7 +4,8 @@
 #include <stdio.h>
 
 void getMatrixElements(int matrix[][10], int row, int column) {
-
+// Taking input from the user
+   
    printf("\nEnter elements: \n");
 
    for (int i = 0; i < row; ++i) {
@@ -14,6 +15,7 @@ void getMatrixElements(int matrix[][10], int row, int column) {
       }
    }
 }
+// Multiplying matrices
 
 void multiplyMatrices(int first[][10],
                       int second[][10],
@@ -36,7 +38,7 @@ void multiplyMatrices(int first[][10],
 }
 
 void display(int result[][10], int row, int column) {
-
+// printing multiplied matrix
    printf("\nOutput Matrix:\n");
    for (int i = 0; i < row; ++i) {
       for (int j = 0; j < column; ++j) {

@@ -3,7 +3,7 @@
 	long int multiplyNumbers(int n);
 	int main() {
     	int n;
-    	printf("Enter a positive integer: ");
+    	printf("Enter a positive integer: "); // Input from the user
     	scanf("%d",&n);
     	printf("Factorial of %d = %ld", n, multiplyNumbers(n));
     	return 0;

@@ -35,7 +35,7 @@ int main()
                 display(data, n);
                 break;
             case 2:
-                printf("Enter Roll number to search : ");
+                printf("Enter Roll number to search : "); // Input from the user 
                 scanf("%d", &roll_no);
                 index = search(data, n, roll_no);
                 if (index ==  - 1)

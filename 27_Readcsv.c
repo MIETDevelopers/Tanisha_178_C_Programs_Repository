@@ -17,7 +17,7 @@ const char* getfield(char* line, int num)
 }
 int main()
 {
-    FILE* stream = fopen("E:\\Softwares\\C_Programs\\Ishav_160_C_Programs_Repository\\034_ReadCSV.csv", "r"); //Path of the .csv file.
+    FILE* stream = fopen("Read.csv", "r"); //Path of the .csv file.
 
     char line[1024];
     while (fgets(line, 1024, stream))
